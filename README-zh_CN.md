@@ -1,53 +1,53 @@
-# dash-message-notification-plugin
+# dash-message-notification-plugin 中文介绍
 
 [![GitHub](https://shields.io/badge/license-MIT-informational)](https://github.com/luojiaaoo/dash-message-notification-plugin/blob/main/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/dash-message-notification-plugin.svg?color=dark-green)](https://pypi.org/project/dash-message-notification-plugin/)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-English | [简体中文](./README-zh_CN.md)
+[English](./README.md) | 简体中文
 
-A plugin to feedback by message or notification for Dash applications using Dash Hooks.. This plugin make feedback by message or notification easily.
+一个基于Dash Hooks实现的消息和通知反馈插件，可以轻松地为Dash应用添加消息提示功能。
 
-## Installation
+## 安装
 
 ```bash
 pip install dash-message-notification-plugin
 ```
 
-## Usage
+## 使用方法
 
 ```python
 import dash
 
-# Import the message notification plugin
+# 导入消息通知插件
 from dash_message_notification_plugin import (
     setup_message_notification_plugin,
     UtilMessage,
     UtilNotification,
 )
 
-# Enable the message notification plugin for the current app
+# 为当前应用启用消息通知插件
 setup_message_notification_plugin()
 
 app = dash.Dash(__name__)
 
-# Rest of your app code...
+# 其余应用代码...
 ```
 
-## Example
+## 示例
 
-Run the included example:
+运行示例程序：
 
 ```bash
 python example.py
 ```
 
-## API Reference
+## API参考
 
-### 1. Activate Plugin
+### 1. 激活插件
 
- `setup_message_notification_plugin()`
+`setup_message_notification_plugin()`
 
-### 2. Using api in callback
+### 2. 在回调中使用API
 
-`Please refer to the example.py`
+`请参考example.py文件`
