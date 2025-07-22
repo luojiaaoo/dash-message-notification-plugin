@@ -8,6 +8,7 @@ setup(
     version="0.1.0",
     install_requires=[
         "dash>=3.1.1",
+        "feffery-antd-components",
     ],
     packages=["dash_message_notification_plugin"],
     author="luojiaaoo",
